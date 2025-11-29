@@ -1,0 +1,22 @@
+<!-- Main Container -->
+<div id="main-container">
+    <!-- Page 1: Greeting -->
+    <div class="step" id="step1">
+        <h1>Happy Birthday!</h1>
+        <button onclick="nextStep(2)">Click to Begin</button>
+    </div>
+
+    <!-- Page 2: Gallery -->
+    <div class="step hidden" id="step2">
+        <div class="gallery">
+            <!-- Add photos here -->
+            <img src="assets/photo1.jpg" alt="Memory">
+        </div>
+        <button onclick="nextStep(3)">Next Surprise</button>
+    </div>
+
+    <!-- Page 3: The Message -->
+    <div class="step hidden" id="step3">
+        <p id="typing-text"></p> <!-- For typing animation -->
+    </div>
+</div>
